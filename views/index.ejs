@@ -1,0 +1,26 @@
+<% include partials/head %>
+   
+   <div>
+
+   
+        <% products.forEach(prod => { %>
+            <div class="gallery">
+                <a href="/products/<%= prod._id %>">
+                    <img src="<%= prod.image %>" alt="">
+                </a>
+                   
+                <div><p>price: £<%= prod.price %></p></div>  
+            </div>
+                  
+          
+                
+
+            
+              
+       <% }) %>
+ 
+       
+       
+
+   </div> 
+<% include partials/footer %>

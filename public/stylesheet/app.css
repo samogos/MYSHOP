@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to right,#74712f,yellow,hsl(69, 69%, 63%), #918129);
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 100%;
+    height: auto;
+    background-color: #45484b;
+    overflow: hidden;
+}
+
+ul {
+    
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    padding: 3rem;
+}
+
+
+
+a {
+    margin: 3px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: white;
+
+}
+img {
+    width: 250px;
+    height: 250px; 
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    
+    color: white;
+    padding: 5px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    background-color: black;
+    
+}
+
+
+a.right {    
+    float: right;
+}

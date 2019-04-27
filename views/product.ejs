@@ -1,0 +1,25 @@
+<% include partials/head %>
+
+    <div class="container">
+        <form action="/products" method="POST">
+            
+                 
+             <label for="image">Image Url</label>       
+             <input type="text" name="image" id="image" placeholder="insert image url here">
+                 
+                 
+             <label for="price">Price</label>
+             <input type="number" name="price" id="price" placeholder="insert price here">
+                
+                 
+             <input type="submit" value="Submit">
+                 
+            
+            
+                
+        </form>
+        <a href="/">Go back</a>
+    </div>
+    
+    
+    <% include partials/footer %>

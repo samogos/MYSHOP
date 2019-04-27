@@ -1,0 +1,31 @@
+<% include partials/head %>
+
+<div class="gallery">
+        
+    <img src="<%= product.image %>" alt="">
+        
+           
+     <div><p>price: £<%= product.price %></p></div>  
+</div>
+
+<div id="order">
+    <form action="" method="">
+        <label for="Quantity">Quantity</label>
+        <select name="Quantity" id="Quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <label for="size">Size</label>
+        <select name="size" id="size">
+            <option value="extra small">XS</option>
+            <option value="small">S</option>
+            <option value="Medium">M</option>
+            <option value="Large">L</option>
+            <option value="Extra Large">XL</option>
+        </select>
+    </form>
+
+</div>
